@@ -2,7 +2,9 @@
 <?php include "../header.php" ?>
 
 
+<body id="body-bg">  
 
+</body>
 
 
 

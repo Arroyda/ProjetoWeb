@@ -1,0 +1,62 @@
+#carouselExampleControls {
+    width: 100%; /* O carrossel usa 100% da largura do contêiner pai */
+    
+    height: auto; /* A altura será ajustada automaticamente */
+    margin: 0 auto; /* Centraliza o carrossel no contêiner pai */
+  }
+  #carouselExampleControls .carousel-inner,
+  #carouselExampleControls .carousel-item,
+  #carouselExampleControls .carousel-item img {
+    width: 100%;
+    height: auto; /* Mantém a proporção das imagens */
+    object-fit: cover; /* Garante que as imagens cubram o carrossel */
+  }
+  /* Define uma altura fixa para o carrossel e faz com que as imagens se ajustem */
+  #carouselExampleControls {
+    position: relative;
+  }
+  #carouselExampleControls .carousel-item {
+    height: 400px; /* Altura fixa do carrossel */
+  }
+  #carouselExampleControls .carousel-item img {
+    height: 100%;
+    width: 10px; /* Imagem ocupa a altura do item do carrossel */
+    object-fit: cover; /* Imagem cobre o item do carrossel */
+  }
+
+  #preço {
+    color: red;
+  }
+
+  #body-bg {
+    background-image: repeating-linear-gradient(to right, #640000, #640000 3px, transparent 3px, transparent);
+    background-size: 35px 35px;
+    background-color: #a00701;
+    height: auto;
+    width: auto;
+  }
+
+  .bg-cadastro-login {
+    background-color: white;
+  }
+  
+  #bg-header{
+    background-color: #580F00;
+    
+  }
+
+  #font-header {
+    color: white;
+  }
+
+  #image-header {
+    width: 100px ;
+    height: 100px ;
+  }
+
+  #gap{
+    left: 35px;
+    right: 40px;
+    bottom: 40px;
+    top: 70px;
+  }
