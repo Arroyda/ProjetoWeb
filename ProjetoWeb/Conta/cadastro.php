@@ -1,7 +1,7 @@
 <?php include "../css.php" ?>
 <?php include "headerConta.php" ?>
 
-<div class="bg-cadastro-login"> 
+<div class="bg-cadastro-login" id="conta-container"> 
   
   <!-- Crian Tela Cadastro -->
   <form class="container">
@@ -39,4 +39,4 @@
   
   
 </div>
-  <?php include "../footer.php" ?>
+<?php include "footerConta.php" ?>

@@ -4,7 +4,7 @@
 <body id="body-bg"> 
 
     <!-- Cria Carrousel de Fotos -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel-slide" data-ride="carousel">
         <div class="carousel-inner">
             
             <!-- Coloca a foto -->

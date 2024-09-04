@@ -37,11 +37,12 @@
   }
 
   .bg-cadastro-login {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
   }
   
   #bg-header{
-    background-color: #580F00;
+    background-color: #580f00;
     
   }
 
@@ -49,9 +50,19 @@
     color: white;
   }
 
+  #font-footer {
+    color: white;
+    text-align: center;
+  }
+
   #image-header {
     width: 100px ;
     height: 100px ;
+  }
+
+  #image-footer {
+    width: 75px ;
+    height: 75px ;
   }
 
   #gap{
@@ -59,4 +70,25 @@
     right: 40px;
     bottom: 40px;
     top: 70px;
+  }
+
+  .footer-props{
+    position: sticky;
+  }
+
+  #font-footer-conta{
+    color: black;
+    text-align: center;
+
+  }
+
+  #bg-footer-conta{
+    background-color: rgb(250, 250, 250);
+  }
+
+  .card{
+    -webkit-box-shadow: 7px 7px 10px 3px #000000;
+    -moz-box-shadow: 7px 7px 10px 3px #000000;
+    box-shadow: 7px 7px 10px 3px #000000;
+    
   }
