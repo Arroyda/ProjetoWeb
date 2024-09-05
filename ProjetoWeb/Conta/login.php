@@ -2,6 +2,8 @@
 <?php include "../css.php" ?>
 <?php include "headerConta.php" ?>
 
+<br>
+<br>
   <!-- Cria a tela Login -->
 <div class="mx-auto" style="width: 300px;">
     <body class="text-center">
@@ -33,4 +35,4 @@
     </body>
 </div>
 
-<?php include "../footer.php" ?>
+<?php include "footerConta.php" ?>
